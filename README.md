@@ -2,7 +2,7 @@
 ![Project Screenshot](https://github.com/PrafulShinde8/Ajackus-Assignment/blob/464e4783451847e6aa302bb4001424d99c6c8ac7/Screenshot%20(80).png)
 User can add their data to user list 
 
-![Project Screenshot](https://github.com/PrafulShinde8/Ajackus-Assignment/blob/b38ba81ae09bc32d2f2a0ad5269af90e8fb90d02/Screenshot%20(80).png)
+![Project Screenshot](https://github.com/PrafulShinde8/Ajackus-Assignment/blob/d926da3108abb9fe83d9d7ece2d3754e310fc9b1/Screenshot%20(76).png)
 Users list with data Edit and Delete button
 ## Overview
 The User Management Dashboard is a full-stack web application that allows users to efficiently view, add, update, and delete user data. It is built using modern web development technologies and follows a modular structure for better maintainability and scalability. The project leverages MongoDB as the database to store and manage user information.The frontend provides a user-friendly interface for managing users and supports CRUD operations seamlessly. Additionally, Instead of mock backend API I have used my own data using MongoDB worked really hard.
