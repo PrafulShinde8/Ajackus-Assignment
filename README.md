@@ -6,19 +6,31 @@ This project is a simple web application that allows users to view, add, edit, a
 ## Project Structure
 ```
 user-management-dashboard
+├──backend
+|  ├── src
+|  |    ├──config
+|  |    |  ├── db.js
+|  |    ├──models
+|  |    |  ├──User.js
+|  |    ├──routes
+|  |    |  ├──users.js
+|  |    ├──app.js
+|  ├──.env
+|  ├──package-lock.json
+|  ├──package.json
 ├── src
 │   ├── components
 │   │   ├── AddUserForm.js
 │   │   ├── EditUserForm.js
 │   │   ├── UserList.js
 │   │   └── UserItem.js
+|   ├── styles.css
 │   ├── services
 │   │   └── api.js
 │   ├── App.js
 │   └── index.js
 ├── public
 │   ├── index.html
-│   └── styles.css
 ├── package.json
 ├── README.md
 └── .gitignore
