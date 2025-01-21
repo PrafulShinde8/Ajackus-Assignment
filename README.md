@@ -73,7 +73,7 @@ The application includes error handling for API requests, displaying appropriate
 
 
 ## Challenges and Improvements
-During development, challenges included managing state effectively and ensuring smooth API interactions. If given more time, I was able to enhance the UI for better user experience.
+If given more time, I was able to enhance the UI for better user experience.
 
 ## License
 This project is open-source and available under the MIT License.
