@@ -4,8 +4,10 @@ User can add their data to user list.
 
 ![Project Screenshot](https://github.com/PrafulShinde8/Ajackus-Assignment/blob/d926da3108abb9fe83d9d7ece2d3754e310fc9b1/Screenshot%20(76).png)
 Users list with data Edit and Delete button
+
 ![Project Screenshot](https://github.com/PrafulShinde8/Ajackus-Assignment/blob/3d612ecacb2bf78c3e47bcf46fc6a9338adda558/Screenshot%20(77).png)
 Update user form popped up after clicking on Edit button to update the data after that data can update easily.
+
 ![Project Screenshot](https://github.com/PrafulShinde8/Ajackus-Assignment/blob/983407d29acbf7f1c33481ea217df710e74255d9/Screenshot%20(78).png)
 After clicking on Delete button Nancy Dsouza's data is successfully deleted
 
