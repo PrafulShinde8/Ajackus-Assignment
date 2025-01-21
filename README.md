@@ -1,8 +1,7 @@
 # User Management Dashboard
 
 ## Overview
-This project is a simple web application that allows users to view, add, edit, and delete user details from a mock backend API. It utilizes the JSONPlaceholder API for demonstration purposes.
-
+The User Management Dashboard is a full-stack web application that allows users to efficiently view, add, update, and delete user data. It is built using modern web development technologies and follows a modular structure for better maintainability and scalability. The project leverages MongoDB as the database to store and manage user information.The frontend provides a user-friendly interface for managing users and supports CRUD operations seamlessly. Additionally, Instead of mock backend API I have used my own data using MongoDB worked really hard.
 ## Project Structure
 ```
 user-management-dashboard
@@ -22,6 +21,7 @@ user-management-dashboard
 │   ├── components
 │   │   ├── AddUserForm.js
 │   │   ├── EditUserForm.js
+|   |   ├── UserForm.js
 │   │   ├── UserList.js
 │   │   └── UserItem.js
 |   ├── styles.css
@@ -39,7 +39,7 @@ user-management-dashboard
 ## Setup Instructions
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/PrafulShinde8/Ajackus-Assignment
    ```
 2. Navigate to the project directory:
    ```
@@ -54,23 +54,26 @@ user-management-dashboard
    npm start
    ```
 5. Open your browser and go to `http://localhost:3000` to view the application.
+6. For backend
+   ```
+   cd backend
+7. To run backend
+   ```
+   node src/app.js
 
 ## Features
-- **View Users**: Displays a list of users fetched from the `/users` endpoint.
+- **View Users**: Displays a list of users fetched.
 - **Add User**: Allows adding a new user through a form.
 - **Edit User**: Enables editing of existing user details.
+- **Update User**: Allow users to update data.
 - **Delete User**: Provides functionality to delete a user.
 
 ## Error Handling
 The application includes error handling for API requests, displaying appropriate messages to the user in case of failures.
 
-## Bonus Features (Optional)
-- Pagination or infinite scrolling for the user list.
-- Client-side validation for user input forms.
-- Responsive design for better usability across devices.
 
 ## Challenges and Improvements
-During development, challenges included managing state effectively and ensuring smooth API interactions. If given more time, I would implement more robust error handling and enhance the UI for better user experience.
+During development, challenges included managing state effectively and ensuring smooth API interactions. If given more time, I was able to enhance the UI for better user experience.
 
 ## License
 This project is open-source and available under the MIT License.
