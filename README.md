@@ -1,4 +1,5 @@
 # User Management Dashboard
+![Project Screenshot](/screenshot(80).png)
 
 ## Overview
 The User Management Dashboard is a full-stack web application that allows users to efficiently view, add, update, and delete user data. It is built using modern web development technologies and follows a modular structure for better maintainability and scalability. The project leverages MongoDB as the database to store and manage user information.The frontend provides a user-friendly interface for managing users and supports CRUD operations seamlessly. Additionally, Instead of mock backend API I have used my own data using MongoDB worked really hard.
