@@ -1,9 +1,6 @@
 import axios from 'axios';
 require('dotenv').config();
 
-// const API_URL = 'http://localhost:5001/api/users';
-
-// const API_URL = process.env.BACKEND_URI;
 const API_URL = 'https://ajackus-assignment-sipg.onrender.com/api/users';
 
 console.log("API_URI"+API_URL);
