@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5001/api/users';
+// const API_URL = 'http://localhost:5001/api/users';
+
+const API_URL = process.env.BACKEND_URI;
 
 export const fetchUsers = async () => {
     try {
