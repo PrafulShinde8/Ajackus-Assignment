@@ -8,8 +8,10 @@ const userRoutes = require('./routes/users');
 const app = express();
 
 // Middleware
+// app.use(cors({ credentials: true, origin: 'http://localhost:5000/api/users' || 'http://localhost:3000' }));
 app.use(cors({
-  origin: 'http://localhost:3000', 
+  credentials: true,
+  origin: 'http://localhost:5000/api/users' || 'http://localhost:3000',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
