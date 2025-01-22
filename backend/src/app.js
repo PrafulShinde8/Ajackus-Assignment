@@ -11,7 +11,7 @@ const app = express();
 // app.use(cors({ credentials: true, origin: 'http://localhost:5000/api/users' || 'http://localhost:3000' }));
 app.use(cors({
   credentials: true,
-  origin: 'https://ajackus-assignment-sipg.onrender.com',
+  origin: 'https://ajackus-assignment-2hb6l3fm3-praful-shindes-projects.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
