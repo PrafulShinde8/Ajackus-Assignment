@@ -37,11 +37,6 @@ const App = () => {
     return (
         <div className="container">
             <h1>User Management Dashboard</h1>
-            {/* {editingUserId ? (
-                <EditUserForm userId={editingUserId} onUserUpdated={handleUserUpdated} />
-            ) : (
-                <AddUserForm onUserAdded={handleUserAdded} />
-            )} */}
             <UserList users={users} onEditUser={setEditingUserId} onDeleteUser={handleDeleteUser} />
         </div>
     );
